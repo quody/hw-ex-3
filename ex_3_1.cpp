@@ -24,7 +24,7 @@ void loop()
 {
   delay(500);
   senddata();
-  //Add some delay so that the ESP has time to complete sending data before goign to sleep
+  //Add some delay so that the ESP has time to complete sending data before going to sleep
   delay(500); 
   Serial.println("Going to sleep");
   //Sleep one hundred seconds. Note that the sleep time is given in microseconds (10^-6)
